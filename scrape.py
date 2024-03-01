@@ -3,7 +3,7 @@ import requests
 import csv
 
 # URL to the website
-url='http://quotes.toscrape.com'
+url='http://quotes.toscrape.com/tag/inspirational/'
 
 # Getting the html file and parsing with html.parser
 html=requests.get(url)
